@@ -1,0 +1,97 @@
+body{
+    background-image: url("https://i0.wp.com/catagua.com.br/wp-content/uploads/2022/09/ok-faxina-rapida-em-casa-veja-5-dicas-para-fazer-na-sua.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+    
+}
+
+section{
+    width: 500px;
+    height: 700px;
+    background-color: rgba(240, 248, 255, 0.425);
+    -webkit-box-shadow: 10px 10px 20px 6px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 10px 20px 6px rgba(0,0,0,0.62);
+    box-shadow: 10px 10px 20px 6px rgba(0,0,0,0.62);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 20px;
+    background: linear-gradient(to bottom, #c0ccf3, #ffffff);
+    font-size: 1.5rem;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noProcastination{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    background-color: rgb(146, 146, 241);
+    height: 2rem;
+    font-size: 1.5rem;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+      
+}
+
+
+form{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.addtarefa{
+    width: 80%;
+    height: 25px;
+    font-size: 1.5rem;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+
+ button:hover {
+    background-color: #0a244b;
+    color: #fff;
+
+}
+
+ button:hover > i {
+    color: #fff;
+} 
+
+button {
+    background-color: #FDFDFD;
+    color: #102F5e;
+    border: 2px solid #102F5e;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;   
+    justify-content: center;
+    align-items: center;  
+    transition: 0.4s;
+}
+
+
+    
